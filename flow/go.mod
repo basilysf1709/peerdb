@@ -6,16 +6,16 @@ require (
 	cloud.google.com/go v0.123.0
 	cloud.google.com/go/auth v0.20.0
 	cloud.google.com/go/bigquery v1.74.0
-	cloud.google.com/go/cloudsqlconn v1.22.1
-	cloud.google.com/go/compute/metadata v0.9.0
-	cloud.google.com/go/kms v1.33.0
+	cloud.google.com/go/cloudsqlconn v1.25.3
+	cloud.google.com/go/compute/metadata v0.10.0
+	cloud.google.com/go/kms v1.35.0
 	cloud.google.com/go/pubsub/v2 v2.3.0
 	cloud.google.com/go/storage v1.62.1
 	github.com/Azure/azure-sdk-for-go/sdk/azidentity v1.14.1
 	github.com/Azure/azure-sdk-for-go/sdk/messaging/azeventhubs/v2 v2.0.2
 	github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/eventhub/armeventhub v1.3.0
 	github.com/ClickHouse/ch-go v0.74.0
-	github.com/ClickHouse/clickhouse-go/v2 v2.48.0
+	github.com/ClickHouse/clickhouse-go/v2 v2.49.0
 	github.com/PeerDB-io/glua64 v1.0.1
 	github.com/PeerDB-io/gluabit32 v1.0.2
 	github.com/PeerDB-io/gluajson v1.0.2
@@ -24,16 +24,16 @@ require (
 	github.com/PeerDB-io/peerdb/flow/pkg v0.0.0
 	github.com/Shopify/toxiproxy/v2 v2.12.0
 	github.com/apache/arrow-go/v18 v18.8.0
-	github.com/aws/aws-sdk-go-v2 v1.47.0
-	github.com/aws/aws-sdk-go-v2/config v1.33.5
-	github.com/aws/aws-sdk-go-v2/credentials v1.20.5
-	github.com/aws/aws-sdk-go-v2/feature/rds/auth v1.7.3
-	github.com/aws/aws-sdk-go-v2/feature/s3/transfermanager v0.4.7
-	github.com/aws/aws-sdk-go-v2/service/kms v1.60.0
-	github.com/aws/aws-sdk-go-v2/service/s3 v1.113.1
-	github.com/aws/aws-sdk-go-v2/service/ses v1.42.0
-	github.com/aws/aws-sdk-go-v2/service/sts v1.51.0
-	github.com/aws/smithy-go v1.28.1
+	github.com/aws/aws-sdk-go-v2 v1.47.3
+	github.com/aws/aws-sdk-go-v2/config v1.33.9
+	github.com/aws/aws-sdk-go-v2/credentials v1.20.9
+	github.com/aws/aws-sdk-go-v2/feature/rds/auth v1.7.6
+	github.com/aws/aws-sdk-go-v2/feature/s3/transfermanager v0.4.16
+	github.com/aws/aws-sdk-go-v2/service/kms v1.61.4
+	github.com/aws/aws-sdk-go-v2/service/s3 v1.114.3
+	github.com/aws/aws-sdk-go-v2/service/ses v1.42.4
+	github.com/aws/aws-sdk-go-v2/service/sts v1.51.4
+	github.com/aws/smithy-go v1.28.5
 	github.com/cockroachdb/pebble/v2 v2.1.7
 	github.com/elastic/go-elasticsearch/v8 v8.19.7
 	github.com/go-logr/logr v1.4.4
@@ -41,15 +41,15 @@ require (
 	github.com/gogo/googleapis v1.4.1
 	github.com/google/uuid v1.6.0
 	github.com/grpc-ecosystem/go-grpc-middleware/v2 v2.3.4
-	github.com/grpc-ecosystem/grpc-gateway/v2 v2.30.0
+	github.com/grpc-ecosystem/grpc-gateway/v2 v2.31.0
 	github.com/hamba/avro/v2 v2.31.0
 	github.com/jackc/pgerrcode v0.0.0-20250907135507-afb5586c32a6
 	github.com/jackc/pglogrepl v0.0.0-20261003132456-662581bb6bb6
-	github.com/jackc/pgx/v5 v5.10.0
+	github.com/jackc/pgx/v5 v5.11.0
 	github.com/json-iterator/go v1.1.12
 	github.com/lestrrat-go/httprc/v3 v3.0.6
 	github.com/lestrrat-go/jwx/v3 v3.3.0
-	github.com/moby/moby/api v1.56.0
+	github.com/moby/moby/api v1.56.1
 	github.com/modern-go/reflect2 v1.0.3-0.20250322232337-35a7c28c31ee
 	github.com/nickbruun/pgsplit v0.0.0-20240103043353-43e6c2dddfad
 	github.com/orcaman/concurrent-map/v2 v2.0.1
@@ -58,49 +58,49 @@ require (
 	github.com/pingcap/errors v0.11.5-0.20260523003111-3697ad564b43
 	github.com/pingcap/tidb v0.0.0-20250130070702-43f2fb91d740
 	github.com/pingcap/tidb/pkg/parser v0.0.0-20260504140133-511dba1dbe17
-	github.com/pressly/goose/v3 v3.28.0
+	github.com/pressly/goose/v3 v3.29.0
 	github.com/quasilyte/go-ruleguard/dsl v0.3.23
 	github.com/robfig/cron/v3 v3.0.1
-	github.com/shopspring/decimal v1.4.0
-	github.com/slack-go/slack v0.29.0
-	github.com/snowflakedb/gosnowflake/v2 v2.2.0
+	github.com/shopspring/decimal v1.5.0
+	github.com/slack-go/slack v0.30.1
+	github.com/snowflakedb/gosnowflake/v2 v2.3.0
 	github.com/stretchr/testify v1.12.1
 	github.com/testcontainers/testcontainers-go v0.44.0
-	github.com/twmb/franz-go v1.21.7
-	github.com/twmb/franz-go/pkg/kadm v1.18.0
+	github.com/twmb/franz-go v1.22.2
+	github.com/twmb/franz-go/pkg/kadm v1.19.0
 	github.com/twmb/franz-go/plugin/kslog v1.0.0
-	github.com/twpayne/go-geos v0.22.0
-	github.com/urfave/cli/v3 v3.12.0
+	github.com/twpayne/go-geos v0.23.0
+	github.com/urfave/cli/v3 v3.14.0
 	github.com/xdg-go/scram v1.2.0
 	github.com/youmark/pkcs8 v0.0.0-20240726163527-a2c0da244d78
 	github.com/yuin/gopher-lua v1.1.2
-	go.mongodb.org/mongo-driver/v2 v2.9.1
-	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.71.0
-	go.opentelemetry.io/otel v1.46.0
-	go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc v1.46.0
-	go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetrichttp v1.46.0
-	go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc v1.46.0
-	go.opentelemetry.io/otel/metric v1.46.0
-	go.opentelemetry.io/otel/sdk v1.46.0
-	go.opentelemetry.io/otel/sdk/metric v1.46.0
-	go.opentelemetry.io/otel/trace v1.46.0
-	go.temporal.io/api v1.63.5
+	go.mongodb.org/mongo-driver/v2 v2.9.2
+	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.72.0
+	go.opentelemetry.io/otel v1.47.0
+	go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc v1.47.0
+	go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetrichttp v1.47.0
+	go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc v1.47.0
+	go.opentelemetry.io/otel/metric v1.47.0
+	go.opentelemetry.io/otel/sdk v1.47.0
+	go.opentelemetry.io/otel/sdk/metric v1.47.0
+	go.opentelemetry.io/otel/trace v1.47.0
+	go.temporal.io/api v1.63.7
 	go.temporal.io/sdk v1.49.0
 	go.temporal.io/sdk/contrib/opentelemetry v0.8.1
 	go.uber.org/automaxprocs v1.6.0
 	go.uber.org/goleak v1.3.0
-	golang.org/x/crypto v0.57.0
+	golang.org/x/crypto v0.58.0
 	golang.org/x/exp v0.0.0-20260908205506-85c1c2202aba
-	golang.org/x/oauth2 v0.36.0
-	golang.org/x/sync v0.23.0
-	golang.org/x/text v0.42.0
-	golang.org/x/tools v0.50.0
+	golang.org/x/oauth2 v0.37.0
+	golang.org/x/sync v0.24.0
+	golang.org/x/text v0.43.0
+	golang.org/x/tools v0.52.0
 	google.golang.org/api v0.287.1
 	google.golang.org/genproto/googleapis/api v0.0.0-20260819154853-08b0e4226688
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20260831171406-18b4a7587f8a
-	google.golang.org/grpc v1.83.2
+	google.golang.org/grpc v1.84.0
 	google.golang.org/protobuf v1.36.12
-	k8s.io/apimachinery v0.37.0
+	k8s.io/apimachinery v0.37.1
 	k8s.io/client-go v0.35.3 // Note: v0.* are newer than v1.*
 )
 
@@ -331,7 +331,7 @@ require (
 replace github.com/tikv/client-go/v2 => github.com/PeerDB-io/tikv-client-go/v2 v2.0.7
 
 // 8 MiB SSH channel receive window for CDC over SSH tunnels; see the fork's README
-replace golang.org/x/crypto => github.com/PeerDB-io/crypto v0.57.17
+replace golang.org/x/crypto => github.com/PeerDB-io/crypto v0.58.17
 
 replace github.com/tikv/pd/client => github.com/tikv/pd/client v0.0.0-20251229071808-6173d50c004c // PINNED(DBI-444): the underlying dependency changed an interface
 
